@@ -68,7 +68,9 @@ app.get("/login", (req, res) => {
 app.get("/home", (req, res) => {
   res.render("home.ejs");
 });
-
+app.get("/newpost", (req, res) => {
+  res.render("newpost.ejs");
+});
 //POST Requests
 app.post("/register", async (req, res) => {
   try {

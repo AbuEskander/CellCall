@@ -1,13 +1,21 @@
-body{
+body {
   background-color: bisque;
 }
-.cont{
+.cont {
   margin: 20px;
 }
-.Blog{
+.Blog,
+.newPost {
   background-color: white;
   border: 1px solid black;
   border-radius: 5px;
   padding: 10px;
+  margin-top: 15px;
+}
+.newPost {
   margin-top: 120px;
+}
+.Welcome {
+  margin-top: 120px;
+  height: 70vh;
 }
